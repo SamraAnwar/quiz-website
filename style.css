@@ -6,6 +6,7 @@
 }
 body{
     color: #fff;
+    background: black;
 }
 .header{
     position: fixed;
@@ -43,6 +44,12 @@ body{
     background: url(images/background.svg) no-repeat;
     background-size: cover;
     background-position: center;
+    pointer-events: auto;
+    transition: .3s ease;
+}
+.main.active{
+    filter: blur(15px);
+    pointer-events: none;
 }
 .home{
     height: 100vh;
