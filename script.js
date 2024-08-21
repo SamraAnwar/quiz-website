@@ -33,7 +33,7 @@ nextBtn.onclick = () => {
     showQuestions(questioncount); 
     }
     else{
-    console.log("question complete!");
+    alert("question complete!");
     
     }
 }
