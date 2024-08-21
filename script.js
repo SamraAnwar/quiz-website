@@ -19,30 +19,36 @@ continueBtn.onclick = () => {
     popupInfo.classList.remove('active');
     main.classList.remove('active');
     quizBox.classList.add('active');
-
     showQuestions(0);
 }
 
 let questioncount = 0;
+let questionnumb = 1;
 
 const nextBtn = document.querySelector('.next-btn');
 
 nextBtn.onclick = () => {
-    questioncount++;
-    showQuestions(questioncount);
-}
+    if(questioncount < questions.length - 1){
+        questioncount++;
+    showQuestions(questioncount); 
+    }
+    else{
+    console.log("question complete!");
 
+    }
+}
 const optionList = document.querySelector('.option-list');
 // getting ques and option from array
 function showQuestions(index) {
     const questiontext = document.querySelector('.question-text');
     questiontext.textContent =`${questions[index].numb}. ${questions[index].question}`;
 
-    let optionTag = `<div class="option"><span>${questions[index].options(0)}</span></div>
-     <div class="option"><span>${questions[index].options(1)}</span></div>
-      <div class="option"><span>${questions[index].options(2)}</span></div>
-       <div class="option"><span>${questions[index].options(3)}</span></div>`;
+    let optionTag = `<div class="option"><span>${questions[index].options[0]}</span></div>
+    <div class="option"><span>${questions[index].options[1]}</span></div>
+     <div class="option"><span>${questions[index].options[2]}</span></div>
+      <div class="option"><span>${questions[index].options[3]}</span></div>`;
 
-       optionList.innerHTML = optionTag;
+    
+    optionList.innerHTML = optionTag;
 
 }

@@ -34,13 +34,13 @@ let questions =[
     },
     {
         numb: 4,
-        question: "Which HTML tag is used to define an internal style sheet?",
-        answer: " <style>",
+        question: "What is the purpose of the CSS will-change property?",
+        answer: "Indicates that an element is likely to change in the future",
         options: [
-            " <style>",
-            " <css>",
-            "<script>",
-            "<link>",
+            "A. Indicates that an element is likely to change in the future",
+            "B. Sets the initial value of an element",
+            "C. Animates the element continuously",
+            "D. Specifies the layout of an element",
         ]
     },
     {
@@ -48,43 +48,43 @@ let questions =[
         question: "In HTML, which attribute is used to specify that an input field must be filled out",
         answer: "required",
         options: [
-            "placeholder",
-            "required",
-            "validate",
-            "mandatory",
+            "A. placeholder",
+            "B. required",
+            "C. validate",
+            "D. mandatory",
         ]
     },
     {
         numb: 6,
-        question:"Which of the following HTML Elements is used for making any text bold ?",
-        answer:"<b>",
+        question:"In CSS, it is not possible to specify different padding for different sides. Which CSS property is used for creating a shadow effect on text?",
+        answer:"text-shadow",
         options:[
-            "<i>",
-            "<p>",
-            "<b>",
-            "<li>",
+            "A. text-shadow",
+            "B. shadow-effect",
+            "C. text-outline",
+            "D. font-shadow",
         ]
     },
     {
         numb: 7,
-        question:"How is document type initialized in HTML5.?",
-        answer:"<!DOCTYPE HTML>",
+        question:"What does the CSS property display: none; do?",
+        answer:"Hides the element",
         options:[
-            "</DOCTYPE HTML>",
-            "</DOCTYPE>",
-            "<!DOCTYPE HTML>",
-            "</DOCTYPE html>",
+            "A. Hides the element",
+            "B. Shows the element",
+            "C. Makes the element semi-transparent",
+            "D. Displays an error",
         ]
     },
     {
         numb: 8,
-        question:"Which of the following HTML element is used for creating an unordered list?",
-        answer:"<ul>",
+        question:"In CSS, what is the default value of the position property?",
+        answer:"static",
         options:[
-            "<ui>",
-            "<i>",
-            "<em>",
-            "<ul>",
+            "A. relative",
+            "B. static",
+            "C. fixed",
+            "D. absolute",
         ]
     },
     {
@@ -92,21 +92,21 @@ let questions =[
         question:"What is the font-size of the h1 heading tag?",
         answer:"2 em",
         options:[
-            "3.5 em",
-            "2 em",
-            "2.17 em",
-            "1.5 em",
+            "A. 3.5 em",
+            "B. 2 em",
+            "C. 2.17 em",
+            "D. 1.5 em",
         ]
     },
     {
         numb: 10,
-        question:"Which of the following is the correct way of creating an hyperlink in HTML?",
-        answer:"<a href= “www.geeksforgeeks.org”>Geeksforgeeks</a>",
+        question:"Which CSS property is used for changing the text color of an element?",
+        answer:"color",
         options:[
-            "<a>www.geeksforgeeks.org <Geeksforgeeks /a>",
-            "<a href=“www.geeksforgeeks.org” Geeksforgeeks /a>",
-            "<a link=“www.geeksforgeeks.org” Geeksforgeeks> </a>",
-            "<a href= “www.geeksforgeeks.org”>Geeksforgeeks",
+            "A. color",
+            "B. text-color",
+            "C. font-color",
+            "D. textColor",
         ]
     }
 ];
