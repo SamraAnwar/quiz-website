@@ -34,7 +34,7 @@ nextBtn.onclick = () => {
     }
     else{
     console.log("question complete!");
-
+    
     }
 }
 const optionList = document.querySelector('.option-list');
